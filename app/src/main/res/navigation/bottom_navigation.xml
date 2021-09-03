@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/bottom_navigation"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.example.gamezen.HomeFragment"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home" />
+    <fragment
+        android:id="@+id/accountFragment"
+        android:name="com.example.gamezen.AccountFragment"
+        android:label="fragment_settings"
+        tools:layout="@layout/fragment_account" />
+    <fragment
+        android:id="@+id/categoriesFragment"
+        android:name="com.example.gamezen.CategoriesFragment"
+        android:label="fragment_categories"
+        tools:layout="@layout/fragment_categories" />
+    <fragment
+        android:id="@+id/productsFragment"
+        android:name="com.example.gamezen.ProductsFragment"
+        android:label="fragment_products"
+        tools:layout="@layout/fragment_products" />
+    <fragment
+        android:id="@+id/informationFragment"
+        android:name="com.example.gamezen.InformationFragment"
+        android:label="fragment_information"
+        tools:layout="@layout/fragment_information" />
+    <fragment
+        android:id="@+id/cartFragment"
+        android:name="com.example.gamezen.CartFragment"
+        android:label="fragment_cart"
+        tools:layout="@layout/fragment_cart" />
+    <fragment
+        android:id="@+id/catalogFragment"
+        android:name="com.example.gamezen.CatalogFragment"
+        android:label="fragment_catalog"
+        tools:layout="@layout/fragment_catalog" />
+    <fragment
+        android:id="@+id/addressesFragment"
+        android:name="com.example.gamezen.AddressesFragment"
+        android:label="fragment_addresses"
+        tools:layout="@layout/fragment_addresses" />
+    <fragment
+        android:id="@+id/confirmFragment"
+        android:name="com.example.gamezen.ConfirmFragment"
+        android:label="fragment_confirm"
+        tools:layout="@layout/fragment_confirm" />
+    <fragment
+        android:id="@+id/newAddressFragment"
+        android:name="com.example.gamezen.NewAddressFragment"
+        android:label="fragment_new_address"
+        tools:layout="@layout/fragment_new_address" />
+    <fragment
+        android:id="@+id/viewAddressFragment"
+        android:name="com.example.gamezen.ViewAddressFragment"
+        android:label="fragment_view_address"
+        tools:layout="@layout/fragment_view_address" />
+    <fragment
+        android:id="@+id/viewOrdersFragment"
+        android:name="com.example.gamezen.ViewOrdersFragment"
+        android:label="fragment_view_orders"
+        tools:layout="@layout/fragment_view_orders" />
+    <fragment
+        android:id="@+id/orderDetailFragment"
+        android:name="com.example.gamezen.OrderDetailFragment"
+        android:label="fragment_order_detail"
+        tools:layout="@layout/fragment_order_detail" />
+    <fragment
+        android:id="@+id/faqFragment"
+        android:name="com.example.gamezen.FaqFragment"
+        android:label="fragment_faq"
+        tools:layout="@layout/fragment_faq" />
+</navigation>

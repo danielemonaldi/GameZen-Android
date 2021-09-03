@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">GameZen</string>
+    <string name="accedi">Accedi <font color='#2F4F75'>al tuo account</font></string>
+    <string name="registrati">Non hai un account? <font color='#5751FF'>Registrati</font></string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="categories">NAME</string>
+
+    <string name="group1">Cosa è GameZen?</string>
+    <string name="group2">Come posso effettuare il pagamento?</string>
+    <string name="group3">Quali sono i tempi di spedizione?</string>
+    <string name="group4">Posso effettuare il reso?</string>
+    <string name="group5">I miei dati sono al sicuro?</string>
+
+    <string-array name="group1">
+        <item>Gamezen è un e-commerce specializzato nella vedita di giochi da tavolo di tutte le categorie.</item>
+    </string-array>
+
+    <string-array name="group2">
+        <item>Al momento, è possibile effettuare il pagamento di un ordine solo attraverso un bonifico bancario.</item>
+    </string-array>
+
+    <string-array name="group3">
+        <item>In genere, sono necessarie 72 ore per la spedizione di un ordine.</item>
+    </string-array>
+
+    <string-array name="group4">
+        <item>GameZen permette di effettuare il reso di uno o più prodotti entro 14 giorni dal loro acquisto, con eventuale rimborso o sostituzione della merce.</item>
+    </string-array>
+
+    <string-array name="group5">
+        <item>La sicurezza dei dati dei nostri utenti è per noi un aspetto fondamentale. Per questo usufruiamo dei servizi di sicurezza e crittogafia offerti da AntonServer.</item>
+    </string-array>
+
+</resources>
